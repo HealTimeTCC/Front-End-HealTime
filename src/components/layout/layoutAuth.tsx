@@ -1,6 +1,9 @@
+import { Outlet } from 'react-router-dom';
 
-export const layoutAuth = () => {
+export const LayoutAuth = () => {
   return (
-    <div>layoutAuth</div>
-  )
-}
+    <div>
+      <Outlet />
+    </div>
+  );
+};
