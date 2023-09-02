@@ -1,10 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import { Login } from '../components/auth';
-import { Register } from '../components/auth/register';
-import { Home } from '../components/home';
-import { LayoutAuth } from '../components/layout';
-import { Redirect } from '../components/layout/Redirect';
+import { Login } from '../screens/auth';
+import { Register } from '../screens/auth/Register';
+import { Home } from '../screens/home';
+import { LayoutAuth } from '../screens/layout';
+import { Redirect } from '../screens/layout/Redirect';
 import { WebRoutes } from './WebRoutes';
 
 export const RoutesHealtime = createBrowserRouter([
